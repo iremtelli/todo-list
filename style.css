@@ -1,0 +1,36 @@
+body {
+    background: #CB6363;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: aliceblue;
+    border: none;
+    background: rgb(221, 156, 156);
+}
+
+.todos li {
+    background: #CB6363;
+    color: aliceblue;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.list {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.filtered {
+    display: none !important;
+}
